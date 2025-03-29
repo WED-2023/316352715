@@ -1,0 +1,115 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  max-width: none;
+
+  /* טשטוש רקע כשמדביקים */
+  backdrop-filter: blur(8px);
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 0px;
+
+  width: 100%;
+  max-width: 1200px;   /* זה הגבול החדש */
+  margin: 0 auto;      /* כדי למרכז */
+  padding: 6px 16px;
+
+  white-space: nowrap;
+  overflow: hidden;
+
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+  border-radius: 20px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+  flex-direction: row-reverse; /* RTL visual order */
+
+}
+
+.nav-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+
+nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 14px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 5px #fff;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  background-color: white;
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.image-container,
+.vid-container,
+.qr-code-container {
+  margin: 20px auto;
+  display: block;
+  text-align: center; 
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive navigation */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin-bottom: 10px;
+  }
+}
+

@@ -1,193 +1,270 @@
 <!DOCTYPE html>
-<html>
+<html lang="he" dir="rtl"> 
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveStory Duvik Page</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/components.css">
+
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+
+
+    <header>
+       
+      <div class="site-name"></div>
+        <nav class="navbar">
+          <nav>
+            <div class="nav-item"><a href="#about">About Me</a><span class="heart">💗</span></div>
+            <div class="nav-item"><a href="#photos">My Photos</a><span class="heart">💗</span></div>
+            <div class="nav-item"><a href="#song">My Favorite Song</a><span class="heart">💗</span></div>
+            <div class="nav-item"><a href="#like">Like</a><span class="heart">💗</span></div>
+            <div class="nav-item"><a href="#qr">QR Code</a><span class="heart">💗</span></div>
+            <div class="nav-item"><a href="#dovik-quiz">Love Game</a><span class="heart">💗</span></div>
+            <div class="nav-item"><a href="#fun-fact">Fun Fact</a><span class="heart">💗</span></div>
+            <div class="nav-item"><a href="#contact">Contact</a><span class="heart">💗</span></div>
+            <div class="nav-item"><a href="#qa">Q&A</a><span class="heart">💗</span></div>
+            
+          </nav>
+        </nav>
+      </header>
+      <div class="container">
+
+
+      <div class="title-with-image">
+        <img src="imgs/zeevfirstpic.png" alt="Profile photo">
+        <h1>דוביק רוזן</h1>
+      </div>
+      
+
+      <section id="about">
+          <h2 class="section-title">מי אני? </h2>
+            <p>בן 67, הרצליה, אלמן</p>
+            <p>מנטור ליזמים צעירים, מתנדב בעמותת הצלת כלבים, וכותב בלוג אישי על התחלה חדשה ואהבות מאוחרות.</p>
+        
+            <h3>רקע</h3>
+            <p>
+              נולדתי וגדלתי בקריית חיים לזוג מורים. שירתי כקצין במודיעין, ולאחר מכן למדתי הנדסת מחשבים בטכניון.
+              אחרי סטארט-אפ ראשון שלא הצליח, בגיל 40 הקמתי חברה מצליחה שסיפקה פתרונות טכנולוגיים לחברות ביטוח ברחבי העולם.
+            </p>
+        
+            <p>
+              רגיש, מצחיק, אוהב אדם ויודע להקשיב. קצת עקשן, אבל תמיד מתוך מקום של אכפתיות.
+            </p>
+        
+            <h3>תחביבים</h3>
+            <ul>
+              <li>טיולים עם כלבים (שלי ושל אחרים)</li>
+              <li>ציור בצבעי מים</li>
+              <li>משחק שחמט בפארק</li>
+              <li>פודקאסטים על מדע ורוח</li>
+              <li>ספרים על פסיכולוגיה חיובית</li>
+              <li>יוקולילי (אפילו העליתי סרטונים ליוטיוב)</li>
+            </ul>
+        
+            <h3>תחומי עניין</h3>
+            <p>בני אדם, טבע, כלבים, חדשנות, ספרות עברית, היסטוריה יהודית.</p>
+        
+            <h3>דמות משפיעה</h3>
+            <p>סבתא רחל – ניצולת שואה שלימדה אותי מה זו ענווה, עוצמה שקטה והומור שמרפא.</p>
+        
+            <h3>משפט שמגדיר אותי</h3>
+            <blockquote>
+              "לא מאוחר מדי להתחיל מחדש – רק צריך להיות מוכן להתרגש שוב."
+            </blockquote>
+
+        </section>
+
+        <section id="photos">
+          <h2 class="section-title">הנה אני</h2>
+
+          <div class="gallery">
+            <img src="imgs/img1.png">
+            <img src="imgs/img2.png">
+            <img src="imgs/img3.png">
+            <img src="imgs/img4.png">
+            
+          </div>
+          
+        </section>
+        
+
+        <section id="song">
+          <h2 class="section-title">השיר האהוב עליי בכל העולם</h2>
+
+          <div class="vid-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TR1UYMh-0E8?si=_t7u9VsGuisa8-oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </section>
+
+
+        <section id="like">
+          <h2 class="section-title">גרמתי לך לחייך?</h2>
+          <button id="like-button" class="button">❤️ לייק (<span id="like-count">0</span>)</button>
+        </section>
+        
+        
+        
+     
+        </section>
+
+        <section id="qr">
+          <h2 class="section-title">שלחי לחברה שלך מה יש בזה</h2>
+          <div class="qr-code-container">
+
+
+          <img src="imgs/LiozLoveStory_qrcode.png" alt="QR CODE" width="300" />
+
+        </div>
+
+
+        </section>
+
+      
+        </section>
+        <section id="dovik-quiz">
+          <h2 class="section-title">Love Game</h2>
+
+          
+        <section class="dovik-quiz">
+
+          <button id="open-quiz" class="button">💗 בדקי התאמה עם דוביק 💗</button>
+          <div id="quiz-modal" class="popup hidden">
+            <div class="popup-content">
+              <form id="quiz-form">
+                <div class="question">
+                  <p>מה את מחפשת בפרק ב'?</p>
+                  <label><input type="radio" name="q1" value="1"> מישהו ללכת איתו ברגל ולשתוק ביחד</label>
+                  <label><input type="radio" name="q1" value="0"> חבר לקבוצת ווטסאפ</label>
+                  <label><input type="radio" name="q1" value="0"> אחד שיזמין חשבון לפני שסיימתי לשתות</label>
+                </div>
+            
+                <div class="question">
+                  <p>דוביק מזמין אותך להליכה בפארק, את...</p>
+                  <label><input type="radio" name="q2" value="1"> מביאה לו מים קרים מהבית</label>
+                  <label><input type="radio" name="q2" value="0"> שואלת אם תהיה חניה</label>
+                  <label><input type="radio" name="q2" value="0"> אומרת "רק אם אתה לוקח אותי לקניון אחר כך"</label>
+                </div>  
+                <div class="question"> 
+                <p>מה את אומרת כשהוא מספר שהוא מאכיל חתולי רחוב?</p>
+                <label><input type="radio" name="q3" value="1"> איזה לב גדול יש לך</label>
+                <label><input type="radio" name="q3" value="0"> אני יותר של כלבים</label>
+                <label><input type="radio" name="q3" value="0"> אתה גם מנקה אחריהם?</label>
+              </div>
+          
+              <div class="question">
+                <p>הוא שולח לך הודעה: "חשבתי עלייך..."</p>
+                <label><input type="radio" name="q4" value="1"> אני מקשיבה</label>
+                <label><input type="radio" name="q4" value="0"> בדיוק הייתי באמצע חדשות</label>
+                <label><input type="radio" name="q4" value="0"> אז למה אתה לא מתקשר?</label>
+              </div> 
+              <div class="question">    
+              <p>איך את שותה את הקפה שלך?</p>
+              <label><input type="radio" name="q5" value="1"> כמו הלב שלי – חם, בלי הרבה סוכר</label>
+              <label><input type="radio" name="q5" value="0"> רק אם יש עוגה בצד</label>
+              <label><input type="radio" name="q5" value="0"> אני שותה תה, תודה</label>
+            </div>
+                <button type="submit" class="button">שלחי ❤️</button>
+              </form>
+            </div>
+          </div>
+                  </form>
+        </section>
+        
+        <!-- Pop-up result box -->
+        <div id="quiz-popup" class="popup hidden">
+          <div class="popup-content" id="quiz-result"></div>
+        </div>
+
+        </section>
+
+        <section id="fun-fact">
+        <h2 class="section-title">Fun Fact</h2>
+        <section class="love-game">
+          <p id="dovik-fact">לחצי על הכפתור כדי לגלות משהו חדש על דוביק!</p>
+          <button onclick="showFact()" class="button">💘 Tell me more 💘 </button>
+        </section>
+        
+
+        <section id="contact">
+          <h2 class="section-title">אז נדבר?</h2>
+          <form action="https://formspree.io/f/xdkeleyb" method="POST">
+            <label for="name">שם:</label>
+            <input type="text" id="name" name="name" required />
+            
+            <label for="email">אימייל:</label>
+            <input type="email" id="email" name="email" required />
+            
+            <label for="message">הודעה:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        
+            <button type="submit" class="button">שלחי ❤️</button>
+        </form>
+
+        <div class="emoji-picker">
+          <span onclick="addEmoji('😉')" title="Wink">😉</span>
+          <span onclick="addEmoji('💋')" title="Kiss">💋</span>
+          <span onclick="addEmoji('😏')" title="Smirk">😏</span>
+          <span onclick="addEmoji('🍑')" title="Peach">🍑</span>
+          <span onclick="addEmoji('💦')" title="Sweat">💦</span>
+          <span onclick="addEmoji('🍆')" title="Eggplant">🍆</span>
+          <span onclick="addEmoji('👅')" title="Tongue">👅</span>
+
+          
+        </div>
+        
+        
+        </section>
+        
+
+
+
+        <section id="qa">
+          <h2 class="section-title">Q&A</h2>
+          <table class="qatable">
+            <tr>
+              <th>Web1</th>
+              <th>Web2</th>
+              <th>Web3</th>
+            </tr>
+            <td>Static web pages - The contact was rarely updated or changed.
+              Basic functionality - mainly text and images.
+
+            </td>
+            <td>User generate contact - websites became more dynamic, with users able to contribute their own content.
+            <td>If on Web1 only the developer could edit the page, and on Web2 also the user could edit the page, on Web3 another player joined the game - the AI.
+              <p>Websites became more intelligent, with the ability to understand the context of content and provide more personalized experience for users.             </p>
+            </td>
+
+            <tr>
+              <td><p>Use case example - facebook page would look like a static page. if you want to explore more about this person - you can't. all you can is to see his photos.</p>
+                <p>This facebook page, also, was published by the developers and not the users.</p></td>
+              <td><p>Use case example - now people could take care of their own facebook page, and upload some content and images</p></td>
+            </td>
+              <td><p>Use case example - On Facebook, for example, the users now can explore other friends or content, based on their consumed content on the present.</p>
+              </td>
+            </tr>
+          </table>
+
+
+        
+
+
+        
+
+
+        <script src="js/script.js"></script>
+
 </div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
-
-
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
 </body>
+
+
+
+<footer>
+  Made with 💖 by Lioz Shor | © 2025 LoveStory
+</footer>
+
 </html>

@@ -1,0 +1,91 @@
+.site-name {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+  }
+
+
+
+    
+.name {
+    font-size: 50px;
+    color: darkslategray;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+
+  }
+
+  .title-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 15px; 
+    direction: ltr; /* אם אתה רוצה שהתמונה תהיה מימין והטקסט משמאל */
+  }
+  
+  .title-with-image img {
+    height: 150px;
+    border-radius: 50%; /* עיגול יפה אם זו תמונת פנים */
+  }
+
+  .section-title {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+
+  footer {
+    font-size: 14px;
+    color: #888;
+  }
+  .love-game {
+    background-color: #fff0f5;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
+    margin: 40px auto;
+    max-width: 600px;
+    font-family: 'Segoe UI', sans-serif;
+    direction: rtl;
+  }
+  
+  .love-game p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .love-game button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+  }
+  
+  .love-game button:hover {
+    background-color: #c71585;
+    transform: scale(1.05);
+  }
+
+  .heart {
+    font-size: 16px;
+    line-height: 1;
+    transform: translateY(1px);
+  }
+  
+  
+  
